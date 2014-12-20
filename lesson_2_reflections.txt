@@ -9,3 +9,9 @@ How is the staging area different from the working directory and the repository?
 	The SA is different to the repo, because the SA is a subset of the repo, as is
 	the WD.
 	Value: It keeps a tight focus on what is being controlled. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Only add files that are relevant to the commit. Rather than committing all files in a repo.
+	You can also reset files to remove them from the staging area.
+
