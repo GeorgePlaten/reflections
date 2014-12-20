@@ -24,3 +24,9 @@ Q5 How do the diagrams help you visualize the branch structure?
 	It makes it clear to see that the commits only refer back to their parents in a chain.
 	It shows how checking out an old commit creates a detached head can 'corrupt' a  commit
 	if it is not given a new branch name.
+
+Q6 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two branches adds all the changes together into one branch. We represent it with 2
+	parent arrows because it remembers both branches as parents.
+
