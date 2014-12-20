@@ -3,3 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 	It creates a hidden .git folder, and sets the status to HEAD. It needs to be done
 	to tell git to start watching the folder.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The SA is different to the WD in that git only watched files added to the SA.
+	The SA is different to the repo, because the SA is a subset of the repo, as is
+	the WD.
+	Value: It keeps a tight focus on what is being controlled. 
