@@ -1,17 +1,21 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q1 What happens when you initialize a repository? Why do you need to do it?
 	
 	It creates a hidden .git folder, and sets the status to HEAD. It needs to be done
 	to tell git to start watching the folder.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q2 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The SA is different to the WD in that git only watched files added to the SA.
 	The SA is different to the repo, because the SA is a subset of the repo, as is
 	the WD.
 	Value: It keeps a tight focus on what is being controlled. 
 
-How can you use the staging area to make sure you have one commit per logical change?
+Q3 How can you use the staging area to make sure you have one commit per logical change?
 
 	Only add files that are relevant to the commit. Rather than committing all files in a repo.
 	You can also reset files to remove them from the staging area.
+
+Q4 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When a project goes on a tangent such as experimental features or different languages.
 
