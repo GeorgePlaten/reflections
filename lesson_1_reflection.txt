@@ -1,0 +1,61 @@
+############## PROBLEMS WITH GIT BASH not writing to .bashrc
+to create and alias for sublime_text.exe to 'subl'
+
+Git bash creates some user files outside the install directory:
+.gitconfig
+.bashrc
+.bash_history
+
+For me, it created them in the C:/Users/Colin directory. From:
+http://stackoverflow.com/questions/25122112/bashrc-and-profile-errors-with-sh-exe-%C3%BF%C3%BEe-command-not-found-on-git-shell
+
+QQQ Convert your files from UTF-16 to a single byte encoding like ASCII.
+QQQ Make sure any editor you use doesn't change it back.
+QQQ The "ÿþ" characters are the 16-bit little endian version of the Unicode byte order mark.
+
+I also found the .profile file in the Git install directory (C:/Git)
+I opened all these files in Notepad++ and converted the format to ANSI
+and it worked.
+
+###################
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the diff of the old and new files isolated the typo
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    quickly revert when files get lost or irretrievably broken
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pro: knowing when and where saves and changes are made "more meaningfull"
+	pro: now having huge amount of files to search through
+	pro: more memorable (and findable in later searching)
+	con: forgetting to create commits and not having enough old version
+		that are snapshots at exactly the right time
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because programming files are more likely inter-related and
+	co-dependent
+
+How can you use the commands git log and git diff to view the history of files?
+
+    use git log to get a list of commit IDs, stats and descriptions
+	use git diff ID1 ID2 to see the summaty of differences between 2 commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You always have backups of unbroken versions that can be easily swapped 
+	back in, and go easily back and forward between the way things were
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    This course
