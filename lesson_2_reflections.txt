@@ -30,3 +30,9 @@ Q6 What is the result of merging two branches together? Why do we represent it i
 	Merging two branches adds all the changes together into one branch. We represent it with 2
 	parent arrows because it remembers both branches as parents.
 
+Q7 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pro: Fast and easy, for simple merges.
+	Con: has no intelligence for complicated conflicts. Will ask user every time to manually
+	resolve each conflict.
+	Always doing merges manually would be slow and labour intensive.
