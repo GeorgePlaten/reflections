@@ -19,7 +19,7 @@ Q4 What are some situations when branches would be helpful in keeping your histo
 
 	When a project goes on a tangent such as experimental features or different languages.
 
-Q5 How do the diagrams help you visualize the branch structure?
+Q5 How do the diagrams help you visualize the branch structure? 
 
 	It makes it clear to see that the commits only refer back to their parents in a chain.
 	It shows how checking out an old commit creates a detached head can 'corrupt' a  commit
