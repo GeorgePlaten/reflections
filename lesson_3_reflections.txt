@@ -10,4 +10,13 @@ Q2  Why might you want to always pull changes manually rather than having Git au
 	to be more meaningful and more memorable. It will prevent pulling unwanted or unneeded branches
 	and commits and allow you to focus on only the parts you want to (if in a big collaborative project, for example).
 
-Q3  
+Q3  Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks are like brances of whole repositories on GitHub and would be used when taking some
+	one else's work in a new direction, not necessarily with their involvement.
+
+	Clones are exact copies of repositories	made on local PC or between GitHub and local PC, and
+	are used to copy a complete set of repository files between two locations.
+
+	Branches are only splits of commits, and are used when files and file edits might benefit from
+	going in different directions.
