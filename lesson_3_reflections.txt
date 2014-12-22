@@ -1,1 +1,6 @@
-Q1
+Q1  When would you want to use a remote repository rather than keeping all your work local?
+
+  On almost all projects, but the advantages come when working from different locations and PCs.
+  When working collaboratively on a project with others in different locations.
+  
+Q2  
