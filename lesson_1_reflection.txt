@@ -6,12 +6,12 @@ Git bash creates some user files outside the install directory:
 .bashrc
 .bash_history
 
-For me, it created them in the C:/Users/Colin directory. From:
+For me, it created them in the C:/Users/George directory. From:
 http://stackoverflow.com/questions/25122112/bashrc-and-profile-errors-with-sh-exe-%C3%BF%C3%BEe-command-not-found-on-git-shell
 
 QQQ Convert your files from UTF-16 to a single byte encoding like ASCII.
 QQQ Make sure any editor you use doesn't change it back.
-QQQ The "ÿþ" characters are the 16-bit little endian version of the Unicode byte order mark.
+QQQ The "Ã¿Ã¾" characters are the 16-bit little endian version of the Unicode byte order mark.
 
 I also found the .profile file in the Git install directory (C:/Git)
 I opened all these files in Notepad++ and converted the format to ANSI
