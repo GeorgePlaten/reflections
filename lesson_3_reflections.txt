@@ -35,7 +35,8 @@ Q5  How would you collaborate without using Git or GitHub? What would be easier,
 	things. Harder would be keeping track, reverting quickly to unbroken code and merging work
 	into single controlled and tracked files.
 
-Q6  When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Q6  When would you want to make changes in a separate branch rather than directly in master? What benefits
+does each approach have?
 
 	When working on experimental features, and other things that may be liable to work less than
 	optimally.
