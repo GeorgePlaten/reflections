@@ -3,12 +3,14 @@ Q1  When would you want to use a remote repository rather than keeping all your 
   On almost all projects, but the advantages come when working from different locations and PCs.
   When working collaboratively on a project with others in different locations.
   
-Q2  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Q2  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date
+with your remote repository?
 
 	First, Git seems to always prefer the fine-grained option over the automatic one. This gives
 	the owner full control of git operations. When every action is intentional, it is more likely
 	to be more meaningful and more memorable. It will prevent pulling unwanted or unneeded branches
-	and commits and allow you to focus on only the parts you want to (if in a big collaborative project, for example).
+	and commits and allow you to focus on only the parts you want to (if in a big collaborative
+	project, for example).
 
 Q3  Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
