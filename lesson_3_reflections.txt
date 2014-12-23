@@ -20,3 +20,10 @@ Q3  Describe the differences between forks, clones, and branches. When would you
 
 	Branches are only splits of commits, and are used when files and file edits might benefit from
 	going in different directions.
+
+Q4  What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	This helps git to do normal comparisons like log and diff at the right time and place, I
+	think it also allows the fast-forward merge? To be honest, it seems essential that it would
+	know the point of last sync with remote, so this question appears redundant to me until I
+	understand how it works better... things are juuuusstt getting tricky now....
