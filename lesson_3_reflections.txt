@@ -27,3 +27,10 @@ Q4  What is the benefit of having a copy of the last known state of the remote s
 	think it also allows the fast-forward merge? To be honest, it seems essential that it would
 	know the point of last sync with remote, so this question appears redundant to me until I
 	understand how it works better... things are juuuusstt getting tricky now....
+
+Q5  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Collaborating without Git would be either emailing files back and forth or working on Google
+	Doc without and IDE. Easier: making mistakes and having conflicts go unresolved and break
+	things. Harder would be keeping track, reverting quickly to unbroken code and merging work
+	into single controlled and tracked files.
